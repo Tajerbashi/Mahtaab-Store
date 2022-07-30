@@ -1,0 +1,14 @@
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\DAL.dll.config
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\DAL.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\DAL.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\BEE.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\BEE.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.pdb

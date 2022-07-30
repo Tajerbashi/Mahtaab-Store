@@ -1,0 +1,14 @@
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\BLL.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\BLL.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\BEE.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\DAL.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\BEE.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\DAL.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\DAL.dll.config
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\obj\Debug\BLL.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BLL\obj\Debug\BLL.pdb

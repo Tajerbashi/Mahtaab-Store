@@ -1,0 +1,9 @@
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\bin\Debug\BEE.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\bin\Debug\BEE.pdb
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\bin\Debug\MD.PersianDateTime.Standard.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\bin\Debug\MD.PersianDateTime.Standard.xml
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.csproj.AssemblyReference.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.csproj.CoreCompileInputs.cache
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.csproj.CopyComplete
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.dll
+C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.pdb

@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MD.PersianDateTime.Standard</name>
+    </assembly>
+    <members>
+        <member name="M:MD.PersianDateTime.Standard.Helpers.ExtensionsHelper.ConvertDigitsToLatin(System.String)">
+            <summary>
+            Convert all persian and arabic digit to english in any string  
+            <!-- http://stackoverflow.com/a/28905353/579381 --> 
+            </summary>
+            <param name="inputString">input string that maybe contain persian or arabic digit</param>
+            <returns>a string with english digit</returns>
+        </member>
+        <member name="T:MD.PersianDateTime.Standard.HijriDateTime">
+            <summary>
+            تاریخ هجری قمری
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.HijriDateTime.Year">
+            <summary>
+            سال قمری
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.HijriDateTime.Month">
+            <summary>
+            ماه قمری
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.HijriDateTime.MonthName">
+            <summary>
+            نام ماه قمری
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.HijriDateTime.Day">
+            <summary>
+            روز ماه قمری
+            </summary>
+        </member>
+        <member name="T:MD.PersianDateTime.Standard.PersianDateTime">
+            <summary>
+            Created By Mohammad Dayyan, @mdssoft
+            1397/01/10
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.PersianNumber">
+            <summary>
+            آیا اعداد در خروجی به صورت انگلیسی نمایش داده شوند؟
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Year">
+            <summary>
+            سال شمسی
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Month">
+            <summary>
+            ماه شمسی
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.MonthName">
+            <summary>
+            نام فارسی ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Day">
+            <summary>
+            روز ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.DayOfWeek">
+            <summary>
+            روز هفته
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.PersianDayOfWeek">
+            <summary>
+            روز هفته یا ایندکس شمسی
+            <para />
+            شنبه دارای ایندکس صفر است
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Hour">
+            <summary>
+            ساعت
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.ShortHour">
+            <summary>
+            ساعت دو رقمی
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Minute">
+            <summary>
+            دقیقه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Second">
+            <summary>
+            ثانیه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Millisecond">
+            <summary>
+            میلی ثانیه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetMonthDays">
+            <summary>
+            تعداد روز در ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetWeekOfYear">
+            <summary>
+            هفته چندم سال
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetWeekOfMonth">
+            <summary>
+            هفته چندم ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetDayOfYear">
+            <summary>
+            روز چندم ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.IsLeapYear">
+            <summary>
+            آیا سال کبیسه است؟
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.PersianAmPm">
+            <summary>
+            قبل از ظهر، بعد از ظهر
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetPersianAmPm">
+            <summary>
+            قبل از ظهر، بعد از ظهر به شکل مخفف . کوتاه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetLongMonthName">
+            <summary>
+            نام کامل ماه
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetShortYear">
+            <summary>
+            سال دو رقمی
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetLongDayOfWeekName">
+            <summary>
+            نام کامل روز
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.GetShortDayOfWeekName">
+            <summary>
+            نام یک حرفی روز، حرف اول روز
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Now">
+            <summary>
+            تاریخ و زمان همین الان
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Today">
+            <summary>
+            تاریخ امروز
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.TimeOfDay">
+            <summary>
+            زمان به فرمتی مشابه 
+            <para />
+            13:47:40:530
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.LongTimeOfDay">
+            <summary>
+            زمان به فرمتی مشابه زیر 
+            <para />
+            ساعت 01:47:40:530 ب.ظ
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.ShortTimeOfDay">
+            <summary>
+            زمان به فرمتی مشابه زیر
+            <para />
+            01:47:40 ب.ظ
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.Date">
+            <summary>
+            تاریخ بدون احتساب زمان
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.MinValue">
+            <summary>
+            حداقل مقدار
+            </summary>
+        </member>
+        <member name="P:MD.PersianDateTime.Standard.PersianDateTime.MaxValue">
+            <summary>
+            حداکثر مقدار
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            متد سازنده برای دی سریالایز شدن
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.DateTime,System.Boolean)">
+            <summary>
+            مقدار دهی اولیه با استفاده از دیت تایم میلادی
+            </summary>
+            <param name="dateTime">DateTime</param>
+            <param name="persianNumber">آیا اعداد در خروجی های این آبجکت به صورت فارسی نمایش داده شوند یا فارسی؟</param>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.DateTime)">
+            <summary>
+            مقدار دهی اولیه با استفاده از دیت تایم میلادی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.Nullable{System.DateTime})">
+            <summary>
+            مقدار دهی اولیه با استفاده از دیت تایم قابل نال میلادی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            مقدار دهی اولیه
+            </summary>
+            <param name="persianYear">سال شمسی</param>
+            <param name="persianMonth">ماه شمسی</param>
+            <param name="persianDay">روز شمسی</param>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            مقدار دهی اولیه
+            </summary>
+            <param name="persianYear">سال شمسی</param>
+            <param name="persianMonth">ماه شمسی</param>
+            <param name="persianDay">روز شمسی</param>
+            <param name="hour">ساعت</param>
+            <param name="minute">دقیقه</param>
+            <param name="second">ثانیه</param>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            مقدار دهی اولیه
+            </summary>
+            <param name="persianYear">سال شمسی</param>
+            <param name="persianMonth">ماه شمسی</param>
+            <param name="persianDay">روز شمسی</param>
+            <param name="hour">سال</param>
+            <param name="minute">دقیقه</param>
+            <param name="second">ثانیه</param>
+            <param name="milliseconds">میلی ثانیه</param>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToString">
+            <summary>
+            تبدیل تاریخ به رشته با فرمت مشابه زیر
+            <para />
+            1393/09/14   13:49:40
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.CompareTo(MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            مقایسه با تاریخ دیگر
+            </summary>
+            <returns>مقدار بازگشتی همانند مقدار بازگشتی متد کامپیر در دیت تایم دات نت است</returns>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.CompareTo(System.DateTime)">
+            <summary>
+            مقایسه با تاریخ دیگر
+            </summary>
+            <returns>مقدار بازگشتی همانند مقدار بازگشتی متد کامپیر در دیت تایم دات نت است</returns>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_Implicit(MD.PersianDateTime.Standard.PersianDateTime)~System.DateTime">
+            <summary>
+            تبدیل خودکار به دیت تایم میلادی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_Equality(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور برابر
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_Inequality(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور نامساوی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_GreaterThan(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور بزرگتری
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_LessThan(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور کوچکتری
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_GreaterThanOrEqual(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور بزرگتر مساوی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_LessThanOrEqual(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور کوچکتر مساوی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_Addition(MD.PersianDateTime.Standard.PersianDateTime,System.TimeSpan)">
+            <summary>
+            اپراتور جمع تو زمان
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.op_Subtraction(MD.PersianDateTime.Standard.PersianDateTime,MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            اپراتور کم کردن دو زمان از هم
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Equals(MD.PersianDateTime.Standard.PersianDateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Equals(System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetStartDayOfRamadan(System.Int32)">
+            <summary>
+            تاریخ شروع ماه رمضان 
+            <para />
+            چون ممکن است در یک سال شمسی دو شروع ماه رمضان داشته باشیم 
+            <para />
+            مقدار بازگشتی آرایه است که حداکثر دو آیتم دارد 
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetPersianDateOfLastDayOfMonth">
+            <summary>
+            تاریخ آخرین روز ماه شمسی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetPersianDateOfLastDayOfYear">
+            <summary>
+            تاریخ آخرین روز سال شمسی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Parse(System.String,System.String)">
+            <summary>
+            پارس کردن رشته و تبدیل به نوع PersianDateTime
+            </summary>
+            <param name="persianDateTimeInString">متنی که باید پارس شود</param>
+            <param name="dateSeparatorPattern">کاراکتری که جدا کننده تاریخ ها است</param>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.TryParse(System.String,MD.PersianDateTime.Standard.PersianDateTime@,System.String)">
+            <summary>
+            پارس کردن یک رشته برای یافتن تاریخ شمسی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Parse(System.Int32)">
+            <summary>
+            پارس کردن عددی در فرمت تاریخ شمسی
+            <para />
+            همانند 13920305
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.TryParse(System.Int32,MD.PersianDateTime.Standard.PersianDateTime@)">
+            <summary>
+            پارس کردن عددی در فرمت تاریخ شمسی
+            <para />
+            همانند 13920305
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Parse(System.Int64)">
+            <summary>
+            پارس کردن عددی در فرمت تاریخ و زمان شمسی
+            <para />
+            همانند 13961223072132004
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.TryParse(System.Int64,MD.PersianDateTime.Standard.PersianDateTime@)">
+            <summary>
+            پارس کردن عددی در فرمت تاریخ و زمان شمسی
+            <para />
+            همانند 13961223102232461
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToUniversalTime">
+            <summary>
+            تبدیل به ساعت گرینویچ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToEpochTime">
+            <summary>
+            دریافت تعداد ثانیه های سپری شده از اولین روز سال 1397
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            فرمت های که پشتیبانی می شوند
+            <para />
+            yyyy: سال چهار رقمی
+            <para />
+            yy: سال دو رقمی
+            <para />
+            MMMM: نام فارسی ماه
+            <para />
+            MM: عدد دو رقمی ماه
+            <para />
+            M: عدد یک رقمی ماه
+            <para />
+            dddd: نام فارسی روز هفته
+            <para />
+            dd: عدد دو رقمی روز ماه
+            <para />
+            d: عدد یک رقمی روز ماه
+            <para />
+            HH: ساعت دو رقمی با فرمت 00 تا 24
+            <para />
+            H: ساعت یک رقمی با فرمت 0 تا 24
+            <para />
+            hh: ساعت دو رقمی با فرمت 00 تا 12
+            <para />
+            h: ساعت یک رقمی با فرمت 0 تا 12
+            <para />
+            mm: عدد دو رقمی دقیقه
+            <para />
+            m: عدد یک رقمی دقیقه
+            <para />
+            ss: ثانیه دو رقمی
+            <para />
+            s: ثانیه یک رقمی
+            <para />
+            fff: میلی ثانیه 3 رقمی
+            <para />
+            ff: میلی ثانیه 2 رقمی
+            <para />
+            f: میلی ثانیه یک رقمی
+            <para />
+            tt: ب.ظ یا ق.ظ
+            <para />
+            t: حرف اول از ب.ظ یا ق.ظ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.IsChristianDate(System.String)">
+            <summary>
+            بررسی میکند آیا تاریخ ورودی تاریخ میلادی است یا نه
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.IsSqlDateTime(System.DateTime)">
+            <summary>
+            بررسی میکند آیا تاریخ ورودی مطابق  تاریخ اس کسو ال سرور می باشد یا نه
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetMonthEnum(System.String)">
+            <summary>
+            تبدیل نام ماه شمسی به عدد معادل آن
+            <para />
+            به طور مثال آذر را به 9 تبدیل می کند
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToShortDateString">
+            <summary>
+            نمایش تاریخ به فرمتی مشابه زیر
+            <para />
+            1393/09/14
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToShortDate1String">
+            <summary>
+            نمایش تاریخ به فرمتی مشابه زیر
+            <para />
+            ج 14 آذر 93
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToShortDateInt">
+            <summary>
+            نمایش تاریخ به صورت عدد و در فرمتی مشابه زیر
+            <para />
+            13930914
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToLongDateTimeInt">
+            <summary>
+            نمایش تاریخ و ساعت تا دقت میلی ثانیه به صورت عدد
+            <para />
+            1396122310324655
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToTimeInt">
+            <summary>
+            در این فرمت نمایش ساعت و دقیقه و ثانیه در کنار هم با حذف علامت : تبدیل به عدد می شوند و نمایش داده می شود
+            <para />
+            مثال: 123452 
+            <para />
+            که به معنای ساعت 12 و 34 دقیقه و 52 ثانیه می باشد
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToTimeInt1">
+            <summary>
+            در این فرمت نمایش ساعت و دقیقه در کنار هم با حذف علامت : تبدیل به عدد می شوند و نمایش داده می شود
+            <para />
+            مثال: 1234 
+            <para />
+            که به معنای ساعت 12 و 34 دقیقه می باشد
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToLongDateString">
+            <summary>
+            نمایش تاریخ به فرمتی مشابه زیر
+            <para />
+            جمعه، 14 آذر 1393
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToLongDateTimeString">
+            <summary>
+            نمایش تاریخ و زمان به فرمتی مشابه زیر
+            <para />
+            جمعه، 14 آذر 1393 ساعت 13:50:27
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToShortDateTimeString">
+            <summary>
+            نمایش تاریخ و زمان به فرمتی مشابه زیر
+            <para />
+            جمعه، 14 آذر 1393 13:50
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToShortTimeString">
+            <summary>
+            نمایش زمان به فرمتی مشابه زیر
+            <para />
+            01:50 ب.ظ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToLongTimeString">
+            <summary>
+            نمایش زمان به فرمتی مشابه زیر
+            <para />
+            13:50:20
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ElapsedTime">
+            <summary>
+            نمایش زمان به فرمتی مشابه زیر
+            <para />
+            1 دقیقه قبل
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetTime">
+            <summary>
+            گرفتن فقط زمان 
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.SetTime(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            تنظیم کردن زمان
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToDateTime">
+            <summary>
+            تبدیل به تاریخ میلادی
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToHijri(System.Int32)">
+            <summary>
+            تبدیل به تاریخ هجری قمری
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Subtract(MD.PersianDateTime.Standard.PersianDateTime)">
+            <summary>
+            کم کردن دو تاریخ از هم
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.MonthDifference(System.DateTime)">
+            <summary>
+            تعداد ماه اختلافی با تاریخ دیگری را بر میگرداند
+            </summary>
+            <returns>تعداد ماه</returns>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.Add(System.TimeSpan)">
+            <summary>
+            اضافه کردن مدت زمانی به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddYears(System.Int32)">
+            <summary>
+            اضافه کردن سال به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddDays(System.Int32)">
+            <summary>
+            اضافه کردن روز به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddMonths(System.Int32)">
+            <summary>
+            اضافه کردن ماه به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddHours(System.Int32)">
+            <summary>
+            اضافه کردن ساعت به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddMinutes(System.Int32)">
+            <summary>
+            اضافه کردن دقیقه به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddSeconds(System.Int32)">
+            <summary>
+            اضافه کردن ثانیه به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.AddMilliseconds(System.Int32)">
+            <summary>
+            اضافه کردن میلی ثانیه به تاریخ
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetPersianMonthName(System.Int32)">
+            <summary>
+            نام فارسی ماه بر اساس شماره ماه
+            </summary>
+            <returns>نام فارسی ماه</returns>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetSeasonMonths(System.Int32)">
+            <summary>
+            ماه های مرتبط با یک فصل را برمی گرداند
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetDifferenceQuarter(System.DateTime)">
+            <summary>
+            اختلاف بین دو تاریخ بر حسب فصول
+            </summary>
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.GetTypeCode">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToBoolean(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToByte(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToChar(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToDateTime(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToDecimal(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToDouble(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToInt16(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToInt32(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToInt64(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToSByte(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToSingle(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToString(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToType(System.Type,System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToUInt16(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToUInt32(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="M:MD.PersianDateTime.Standard.PersianDateTime.ToUInt64(System.IFormatProvider)">
+            <inheritdoc />
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Saturday">
+            <summary>
+            شنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Sunday">
+            <summary>
+            یکشنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Monday">
+            <summary>
+            دو شنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Tuesday">
+            <summary>
+            سه شنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Wednesday">
+            <summary>
+            چهار شنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Thursday">
+            <summary>
+            پنج شنبه
+            </summary>
+        </member>
+        <member name="F:MD.PersianDateTime.Standard.PersianDayOfWeek.Friday">
+            <summary>
+            جمعه
+            </summary>
+        </member>
+    </members>
+</doc>
