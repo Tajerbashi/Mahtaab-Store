@@ -7,3 +7,12 @@ C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.csproj.Core
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.csproj.CopyComplete
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.dll
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\BEE\obj\Debug\BEE.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\bin\Debug\BEE.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\bin\Debug\BEE.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\bin\Debug\MD.PersianDateTime.Standard.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\bin\Debug\MD.PersianDateTime.Standard.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\obj\Debug\BEE.csproj.AssemblyReference.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\obj\Debug\BEE.csproj.CoreCompileInputs.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\obj\Debug\BEE.csproj.CopyComplete
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\obj\Debug\BEE.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\BEE\obj\Debug\BEE.pdb

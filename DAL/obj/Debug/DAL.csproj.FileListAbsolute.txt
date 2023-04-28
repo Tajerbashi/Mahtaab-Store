@@ -12,3 +12,17 @@ C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\bin\Debug\EntityFramework
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.dll
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\DAL\obj\Debug\DAL.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\DAL.dll.config
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\DAL.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\DAL.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\BEE.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\BEE.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\obj\Debug\DAL.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\DAL\obj\Debug\DAL.pdb

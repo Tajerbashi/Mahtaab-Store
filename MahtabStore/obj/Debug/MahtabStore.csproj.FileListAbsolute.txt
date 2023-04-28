@@ -30,3 +30,35 @@ C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\MahtabStore\bin\Debug\DAL.dll
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\MahtabStore\obj\Debug\MahtabStore.csproj.CopyComplete
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\MahtabStore\obj\Debug\MahtabStore.exe
 C:\Users\Tajerbashi\Desktop\C# Project\MahtabStore\MahtabStore\obj\Debug\MahtabStore.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\MahtabStore.exe.config
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\MahtabStore.exe
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\MahtabStore.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\BEE.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\BLL.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\EntityFramework.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\DAL.dll
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\BEE.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\BLL.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\EntityFramework.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\DAL.pdb
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\bin\Debug\DAL.dll.config
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.csproj.AssemblyReference.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.About.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.AdminRegister.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.BackUpPanel.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.CheckBankPanel.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.DayReports.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.MainForm.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.MoneyPanel.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.Properties.Resources.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.Reportation.resources
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.csproj.GenerateResource.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.csproj.CoreCompileInputs.cache
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.csproj.CopyComplete
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.exe
+C:\Users\Tajer\Desktop\Visual Studio\Windows Application\Mahtaab-Store\MahtabStore\obj\Debug\MahtabStore.pdb
